@@ -32,5 +32,5 @@ jobs:
           git add README.md
           if ! git diff --cached --quiet; then
             git commit -m "Automated file generation"
-            git push origin main
+            git push
           fi
